@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Travel Advisor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React travel discovery app using map components, place cards, location based browsing, and Material UI.
 
-## Available Scripts
+## Product story
 
-In the project directory, you can run:
+Travel Advisor fits Gokhan's hospitality profile because it is about helping people choose where to go, what to eat, and how to explore an area. The app demonstrates API connected frontend work with a practical consumer workflow.
 
-### `npm start`
+## What it demonstrates
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| Area | Evidence |
+| --- | --- |
+| API connected UI | Place data and map data drive the interface. |
+| Component design | Header, list, map, and place detail components separate responsibilities. |
+| Material UI | The project uses MUI components and styling patterns. |
+| Location based UX | Users can browse places through geography and filters. |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Stack
 
-### `npm test`
+React, JavaScript, Material UI, Axios, Google Maps tooling, Create React App.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Run locally
 
-### `npm run build`
+```bash
+npm install
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Build for production.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm run build
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project structure
 
-### `npm run eject`
+```text
+src
+├── components
+│   ├── Header
+│   ├── List
+│   ├── Map
+│   └── PlaceDetails
+├── App.js
+└── index.js
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Next improvements
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Move API keys into environment variables and document setup.
+2. Add screenshots of the map and place list flow.
+3. Add loading and error states for external API calls.
+4. Add filters for restaurants, hotels, and attractions.
+5. Add deployment instructions.

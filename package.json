@@ -1,5 +1,5 @@
 {
-  "name": "travel_advisor",
+  "name": "travel-advisor",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,5 +42,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "React travel discovery app with maps, place cards, and location based browsing.",
+  "author": "Gokhan Sigircik",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gokhansigircik/travel_advisor.git"
   }
 }
